@@ -1,160 +1,212 @@
-I. Audyt procesów - Sklep internetowy z wyposażeniem wnętrz
+# Process Audit
 
-Firma
+## Company Overview
 
-Branża i czym zajmuje się firma: sprzedaż wyposażenia wnętrz przez sklep internetowy.
+### Industry
 
-Wielkość: 20 osób.
+E-commerce – Home Furnishing Products
 
-Obszar audytu:
-- dział obsługi klienta,
-- dział marketingu,
-- dział administracji.
+### Company Size
 
-Źródła danych:
-- obserwacja procesów,
-- rozmowy z zespołem,
-- analiza najczęściej wykonywanych zadań.
+20 employees
 
-PROCES 1: OBSŁUGA ZAPYTAŃ KLIENTÓW E-MAIL
+### Audited Departments
 
-Kto wykonuje:
-specjaliści obsługi klienta (3 osoby).
+- Customer Service
+- Marketing
+- Administration
 
-Kroki:
-1. odbiór wiadomości,
-2. sprawdzenie zamówienia,
-3. wyszukanie informacji,
-4. przygotowanie odpowiedzi,
-5. wysłanie odpowiedzi.
+### Data Sources
 
-Narzędzia:
-- Outlook,
-- system sklepu internetowego,
-- Excel z FAQ.
+The audit was based on:
 
-Dane:
-- 50 zgłoszeń dziennie,
-- 10 minut na zgłoszenie,
-- 183 godziny miesięcznie,
-- 5 błędnych odpowiedzi miesięcznie.
+- Process observation
+- Employee interviews
+- Analysis of recurring daily tasks
 
-Wąskie gardło:
-powtarzalne odpowiedzi i szukanie informacji w wielu systemach.
+---
 
-Pomysł na AI:
-generowanie szkiców odpowiedzi na podstawie FAQ i historii zgłoszeń.
+## Process 1 – Customer Email Support
 
-Poziom AI Value Ladder:
-Augment
+### Process Owner
 
-Wpływ: 5/5
-Łatwość wdrożenia: 5/5
+Customer Service Specialists (3 employees)
 
-PROCES 2: TWORZENIE TREŚCI MARKETINGOWYCH
+### Workflow
 
-Kto wykonuje:
-specjalista marketingu.
+1. Receive customer email
+2. Verify order information
+3. Search required information
+4. Prepare response
+5. Send response
 
-Kroki:
-1. wybór produktów,
-2. tworzenie treści,
-3. korekta,
-4. publikacja.
+### Tools
 
-Narzędzia:
-- Canva,
-- Facebook,
-- Instagram,
-- Google Docs.
+- Microsoft Outlook
+- E-commerce Platform
+- FAQ Spreadsheet
 
-Dane:
-- 20 postów miesięcznie,
-- 3 godziny na zestaw materiałów,
-- 60 godzin miesięcznie.
+### Current Performance
 
-Wąskie gardło:
-tworzenie pierwszych wersji treści.
+- 50 inquiries per day
+- 10 minutes per inquiry
+- 183 working hours per month
+- 5 incorrect responses per month
 
-Pomysł na AI:
-generowanie opisów produktów, postów i sloganów.
+### Bottleneck
 
-Poziom AI Value Ladder:
-Assist
+Customer service specialists spend significant time searching for information and writing repetitive responses.
 
-Wpływ: 4/5
-Łatwość wdrożenia: 5/5
+### AI Opportunity
 
-PROCES 3: REJESTRACJA FAKTUR KOSZTOWYCH
+Generate response drafts using historical inquiries, FAQ resources, and order information.
 
-Kto wykonuje:
-pracownik administracyjny.
+### AI Value Ladder
 
-Kroki:
-1. odbiór faktury,
-2. odczyt danych,
-3. wpis do systemu księgowego,
-4. weryfikacja.
+**Augment**
 
-Narzędzia:
-- Outlook,
-- PDF Reader,
-- system księgowy,
-- Excel.
+### Assessment
 
-Dane:
-- 100 faktur miesięcznie,
-- 5 minut na fakturę,
-- 8 godzin miesięcznie,
-- 3 błędy miesięcznie.
+| Metric | Score |
+|----------|----------|
+| Business Impact | 5/5 |
+| Ease of Implementation | 5/5 |
 
-Wąskie gardło:
-ręczne przepisywanie danych.
+---
 
-Pomysł na AI:
-odczyt danych z faktur i przygotowanie wpisu.
+## Process 2 – Marketing Content Creation
 
-Poziom AI Value Ladder:
-Automate
+### Process Owner
 
-Wpływ: 2/5
-Łatwość wdrożenia: 3/5
+Marketing Specialist
 
-MATRYCA
+### Workflow
 
-Obsługa e-maili:
-Wpływ 5/5
-Łatwość wdrożenia 5/5
+1. Select products
+2. Create content
+3. Review content
+4. Publish content
 
-Marketing:
-Wpływ 4/5
-Łatwość wdrożenia 5/5
+### Tools
 
-Faktury:
-Wpływ 2/5
-Łatwość wdrożenia 3/5
+- Canva
+- Facebook
+- Instagram
+- Google Docs
 
-PILOT
+### Current Performance
 
-Wybrany proces:
-Obsługa zapytań e-mail.
+- 20 posts per month
+- 3 hours per content package
+- 60 hours per month
 
-Uzasadnienie:
-Najwyższy wpływ biznesowy i najwyższa łatwość wdrożenia. Proces obejmuje 183 godziny pracy miesięcznie.
+### Bottleneck
 
-Mierniki sukcesu:
-- skrócenie czasu obsługi z 10 do 5 minut,
-- zmniejszenie nakładu pracy z 183 do 90 godzin miesięcznie,
-- ograniczenie liczby błędów z 5 do 2 miesięcznie.
+Creating first drafts of marketing materials.
 
-Ryzyka:
-- błędy AI,
-- dane osobowe klientów.
+### AI Opportunity
 
-Wszystkie odpowiedzi wymagają zatwierdzenia przez pracownika.
+Generate:
 
-Zaangażowane osoby:
-- kierownik obsługi klienta,
-- specjaliści obsługi klienta,
-- właściciel firmy,
-- osoba wdrażająca AI
+- Product descriptions
+- Social media posts
+- Marketing slogans
+
+### AI Value Ladder
+
+**Assist**
+
+### Assessment
+
+| Metric | Score |
+|----------|----------|
+| Business Impact | 4/5 |
+| Ease of Implementation | 5/5 |
+
+---
+
+## Process 3 – Invoice Registration
+
+### Process Owner
+
+Administrative Employee
+
+### Workflow
+
+1. Receive invoice
+2. Extract invoice data
+3. Enter information into accounting system
+4. Verify accuracy
+
+### Tools
+
+- Microsoft Outlook
+- PDF Reader
+- Accounting System
+- Microsoft Excel
+
+### Current Performance
+
+- 100 invoices per month
+- 5 minutes per invoice
+- 8 working hours per month
+- 3 errors per month
+
+### Bottleneck
+
+Manual data entry.
+
+### AI Opportunity
+
+Automatically extract invoice information and prepare accounting records.
+
+### AI Value Ladder
+
+**Automate**
+
+### Assessment
+
+| Metric | Score |
+|----------|----------|
+| Business Impact | 2/5 |
+| Ease of Implementation | 3/5 |
+
+---
+
+## Prioritization Matrix
+
+| Process | Impact | Ease of Implementation |
+|----------|----------|----------|
+| Customer Email Support | 5/5 | 5/5 |
+| Marketing Content Creation | 4/5 | 5/5 |
+| Invoice Registration | 2/5 | 3/5 |
+
+---
+
+## Selected Pilot
+
+### Customer Email Support
+
+This process was selected because it delivers the highest business impact while remaining relatively easy to implement.
+
+### Expected Benefits
+
+- Response time reduction from 10 minutes to 5 minutes
+- Monthly workload reduction from 183 hours to 90 hours
+- Error reduction from 5 to 2 per month
+
+### Risks
+
+- AI-generated inaccuracies
+- Customer data privacy concerns
+
+### Mitigation
+
+All AI-generated responses require human review and approval before being sent.
+
+### Stakeholders
+
+- Customer Service Manager
+- Customer Service Specialists
+- Business Owner
+- AI Implementation Lead
