@@ -1,43 +1,129 @@
-II. Automatyzacja – Obsługa zapytań klientów e-mail
+# Automation Design – Customer Email Support
 
-Proces i cel
+## Objective
 
-Proces: Obsługa zapytań klientów e-mail.
+The objective of the automation is to reduce the time required to handle customer email inquiries while maintaining response quality and consistency.
 
-Jak wygląda dziś:
-Klienci wysyłają wiadomości dotyczące statusu zamówienia, dostawy, zwrotów oraz reklamacji.
+The solution combines AI-generated response drafts with human review before customer communication.
 
-Specjalista obsługi klienta:
-- otwiera wiadomość,
-- sprawdza informacje w systemie,
-- wyszukuje procedury,
-- przygotowuje odpowiedź.
+---
 
-Cel:
-Po automatyzacji system analizuje wiadomość, pobiera dane o zamówieniu i przygotowuje projekt odpowiedzi.
+## Current Process
 
-Pracownik sprawdza odpowiedź przed wysłaniem.
+Customers send inquiries related to:
 
-Wyzwalacz
+- Order status
+- Delivery
+- Returns
+- Complaints
 
-Nowa wiadomość pojawia się na skrzynce Outlook.
+Customer service agents currently:
 
-Przebieg procesu
+1. Read incoming emails
+2. Verify order information
+3. Search company procedures and FAQ
+4. Prepare responses manually
+5. Send replies to customers
 
-1. Outlook wykrywa nową wiadomość
-2. System pobiera temat i treść
-3. AI klasyfikuje zgłoszenie
-4. System pobiera dane zamówienia
-5. AI analizuje FAQ
-6. AI przygotowuje odpowiedź
-7. Odpowiedź trafia do weryfikacji
-8. Pracownik zatwierdza odpowiedź
-9. Odpowiedź zostaje wysłana
+---
 
-Kontrola człowieka
+## Future Process
 
-Każda odpowiedź przygotowana przez AI musi zostać zatwierdzona przez pracownika.
+The proposed solution introduces AI-assisted support.
 
-Wynik
+The system will:
 
-Klient otrzymuje odpowiedź, a historia korespondencji pozostaje zapisana w systemie.
+1. Analyze incoming customer emails
+2. Classify inquiry type
+3. Retrieve order information
+4. Review internal FAQ resources
+5. Generate a response draft
+6. Send the draft for human review
+7. Deliver the approved response
+
+---
+
+## Process Trigger
+
+A new customer email arrives in Microsoft Outlook.
+
+---
+
+## Workflow
+
+| Step | Activity | Responsible |
+|--------|--------|--------|
+| 1 | Detect new email | Outlook |
+| 2 | Extract email content | Outlook |
+| 3 | Classify inquiry | AI |
+| 4 | Retrieve order information | Order System |
+| 5 | Analyze FAQ and procedures | AI |
+| 6 | Generate response draft | AI |
+| 7 | Submit for review | System |
+| 8 | Review and approve response | Customer Service Agent |
+| 9 | Send final response | Outlook |
+
+---
+
+## AI Responsibilities
+
+The AI component performs:
+
+- Inquiry classification
+- Issue summarization
+- Response draft generation
+
+Supported inquiry categories:
+
+- Order Status
+- Delivery
+- Returns
+- Complaints
+- Product Availability
+- Other
+
+---
+
+## Human Oversight
+
+Human review remains mandatory.
+
+Customer service specialists:
+
+- validate AI-generated responses,
+- correct inaccuracies,
+- approve outgoing communication,
+- handle exceptional cases.
+
+No customer response is sent automatically.
+
+---
+
+## Validation and Testing
+
+Before deployment, the solution should be tested using sample customer emails.
+
+Validation criteria include:
+
+- classification accuracy,
+- response quality,
+- retrieval of order data,
+- compliance with company procedures.
+
+---
+
+## Expected Benefits
+
+- Reduced handling time
+- Consistent communication quality
+- Increased productivity
+- Lower error rates
+- Improved customer experience
+
+---
+
+## Expected Outcome
+
+The customer receives faster responses while customer service agents spend less time on repetitive activities.
+
+The process combines AI efficiency with human decision-making and quality control
